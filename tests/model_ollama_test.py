@@ -27,7 +27,7 @@ A = AnyString()
 
 def _make_model(stream: bool = False) -> Any:
     return OllamaChatModel(
-        model="qwen3:8b",
+        model="qwen3.5:9b",
         stream=stream,
         context_size=40_960,
     )
